@@ -1,3 +1,4 @@
+// Author: Jacques Descloitres (2025)
 
 $(document).ready(function() {
 
@@ -14,8 +15,6 @@ $(document).ready(function() {
             new L.Control.ZoomBar().addTo(map);
         if (! mapOptions.zoomcontrol  ||  ! mapOptions.zoomcontrol.lasso)
             $(".leaflet-control-zoom-to-area").hide();
-
-
 
         // Add OpenStreetMap tiles
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
