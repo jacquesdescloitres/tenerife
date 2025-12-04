@@ -45,7 +45,7 @@ $(document).ready(function() {
         });
         const satellite = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
             attribution: "Esri, Maxar, Earthstar Geographics",
-            maxZoom: 22,
+            maxZoom: 21,
             maxNativeZoom: 20
         });
         const baseMaps = {
